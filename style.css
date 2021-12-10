@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(173, 175, 175);
+}
+
+#login_box{
+    box-shadow: 10px 5px 5px black;
+    width: 500px; 
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: rgb(244, 220, 253);
+    font-size: 22px;
+    margin-top: 100px;
+}
+
+.div_login{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.div_senha{
+    text-align: center;
+    padding-top: 40px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#login{
+    width: 300px;
+    height: 30px;
+    font-size: 25px;
+}
+
+#psw{
+    width: 300px;
+    height: 30px;
+    font-size: 25px;
+}
+
+#button{
+    margin-top: 40px;
+    width: 100%;
+    border: 0;
+    height: 40px;
+    font-weight: bolder;
+    font-size: 24px;
+    background-color: rgb(153, 245, 214);
+}
+
+#button:hover{
+    background-color: rgb(6, 248, 167);
+    cursor: pointer;
+}
+
+#msg{
+    text-align: center;
+    color: red;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
